@@ -15,8 +15,8 @@ __plugin_meta__ = PluginMetadata(
     usage= "发送['状态', '系统状态', 'zt', 'status'] 其中一个即可获取",
     type="application",
     homepage="https://github.com/zhongwen-4/nonebot-plugin-running-state",
-    supported_adapter={"~onebot.v11"}
-    
+    supported_adapters={"~onebot.v11"}
+
 )
 
 path = localstore.get_plugin_data_dir()
