@@ -13,7 +13,9 @@ __plugin_meta__ = PluginMetadata(
     name="运行状态",
     description="基于 NoneBot和Lagrange.OneBot 的运行状态插件",
     usage= "发送['状态', '系统状态', 'zt', 'status'] 其中一个即可获取",
-    type="application"
+    type="application",
+    homepage="https://github.com/zhongwen-4/nonebot-plugin-running-state",
+    supported_adapter={"~onebot.v11"}
     
 )
 
