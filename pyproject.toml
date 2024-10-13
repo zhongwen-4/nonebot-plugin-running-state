@@ -1,0 +1,19 @@
+[project]
+name = "nonebot-plugin-running-state"
+version = "0.0.1"
+description = "基于 nonebot2和Lagrange.OneBot 的运行状态插件"
+authors = [
+    {name = "zhongwen-4", email = "2401128923@qq.com"},
+]
+dependencies = [
+    "nonebot2>=2.3.3",
+    "nonebot-adapter-onebot>=2.4.5",
+    "psutil>=6.0.0",
+]
+requires-python = ">=3.10.0"
+readme = "README.md"
+license = {text = "AGPL3.0"}
+
+
+[tool.pdm]
+distribution = false
