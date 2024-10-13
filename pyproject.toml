@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-running-state"
-version = "0.0.1"
+version = "0.0.2"
 description = "基于 nonebot2和Lagrange.OneBot 的运行状态插件"
 authors = [
     {name = "zhongwen-4", email = "2401128923@qq.com"},
