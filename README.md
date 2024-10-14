@@ -22,7 +22,6 @@ _✨ 一个获取服务器状态的插件 ✨_
 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=Uw7I6zuHfpRfXlwddRqDbyE10MZnB4iB&jump_from=webapi&authKey=tp4LiunKcl44e+1gKEag50kyemidx/xV5a9aqdXkn9t9C9bvj18bdd2EBciZmVBt">
     <img alt="Static Badge" src="https://img.shields.io/badge/QQ%E7%BE%A4-814190174-%23EEE685?style=flat-square&logo=tencentqq">
 </a>
-
 </div>
 
 ## 📖 介绍
