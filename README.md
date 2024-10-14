@@ -13,8 +13,8 @@ _✨ 一个获取服务器状态的插件 ✨_
 ![GitHub Tag](https://img.shields.io/github/v/tag/zhongwen-4/nonebot-plugin-running-state)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/zhongwen-4/nonebot-plugin-running-state/pypi-publish.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zhongwen-4/nonebot-plugin-running-state)
-![PyPI - Version](https://img.shields.io/pypi/v/nonebot-plugin-running-state?logo=pypi)
-
+![PyPI - Version](https://img.shields.io/pypi/v/nonebot-plugin-running-state?logo=python)
+![Static Badge](https://img.shields.io/badge/python-3.10%2B-brightgreen?logo=python)
 
 </div>
 
