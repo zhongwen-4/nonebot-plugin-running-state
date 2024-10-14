@@ -1,57 +1,58 @@
-<div align="center">
-  <a href="https://v2.nonebot.dev/store"><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo"></a>
-  <br>
-  <p><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
-</div>
+    <div align="center">
+    <a href="https://v2.nonebot.dev/store"><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo"></a>
+    <br>
+    <p><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
+    </div>
 
-<div align="center">
+    <div align="center">
+
 ## 📖 介绍
 
-> [!WARNING]
-> 这个插件只在Lagrange协议端上测试过，其他协议端可能会出现KeyError错误？
+    > [!WARNING]
+    > 这个插件只在Lagrange协议端上测试过，其他协议端可能会出现KeyError错误？
 
-状态插件，用于获取机器人和服务器的当前状态。
+    状态插件，用于获取机器人和服务器的当前状态。
 
 ## 💿 安装
 
-<details open>
-<summary>使用 nb-cli 安装</summary>
-在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
+    <details open>
+    <summary>使用 nb-cli 安装</summary>
+    在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-running-state
+        nb plugin install nonebot-plugin-running-state
 
-</details>
+    </details>
 
-<details>
-<summary>使用包管理器安装</summary>
-在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令
+    <details>
+    <summary>使用包管理器安装</summary>
+    在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令
 
-<details>
-<summary>pip</summary>
+    <details>
+    <summary>pip</summary>
 
-    pip install nonebot-plugin-running-state
-</details>
-<details>
-<summary>pdm</summary>
+        pip install nonebot-plugin-running-state
+    </details>
+    <details>
+    <summary>pdm</summary>
 
-    pdm add nonebot-plugin-running-state
-</details>
-<details>
-<summary>poetry</summary>
+        pdm add nonebot-plugin-running-state
+    </details>
+    <details>
+    <summary>poetry</summary>
 
-    poetry add nonebot-plugin-running-state
-</details>
-<details>
-<summary>conda</summary>
+        poetry add nonebot-plugin-running-state
+    </details>
+    <details>
+    <summary>conda</summary>
 
-    conda install nonebot-plugin-running-state
-</details>
+        conda install nonebot-plugin-running-state
+    </details>
 
-打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
+    打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["nonebot_plugin_running_state"]
+        plugins = ["nonebot_plugin_running_state"]
 
-</details>
+    </details>
 
 ## 🎉 使用
 ### 指令表
