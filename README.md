@@ -6,12 +6,18 @@
 
 <div align="center">
 
+# nonebot-plugin-running-state
+
+_✨ 一个获取服务器状态的插件 ✨_
+
+</div>
+
 ## 📖 介绍
+
+状态插件，用于获取机器人和服务器的当前状态。
 
 > [!WARNING]
 > 这个插件只在Lagrange协议端上测试过，其他协议端可能会出现KeyError错误？
-
-状态插件，用于获取机器人和服务器的当前状态。
 
 ## 💿 安装
 
