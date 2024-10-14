@@ -1,5 +1,5 @@
 from nonebot import on_command, require, get_driver, get_adapters, on_message, get_bots
-import platform, psutil, time, json
+import platform, psutil, time, json,  asyncio
 from typing import Any
 from nonebot import __version__
 
@@ -120,7 +120,11 @@ async def state_handle(bot: Bot, event: GroupMessageEvent):
 
     cpu_count_logical = psutil.cpu_count(logical=True) # 获取CPU逻辑核心数
     cpu_count_physical = psutil.cpu_count(logical=False) # 获取CPU物理核心数
-    cpu_usage_percent = psutil.cpu_percent(interval=1) # 获取CPU使用率
+
+    cpu_usage_percent = psutil.cpu_percent() # 获取CPU使用率
+    await asyncio.sleep(1)
+    cpu_usage_percent = psutil.cpu_percent()
+
     pids = len(psutil.pids())    # 获取进程数量
     msg_list += MessageSegment.text("----CPU信息----\n")
     msg_list += MessageSegment.text(f"逻辑核心数: {cpu_count_logical}\n物理核心数: {cpu_count_physical}\n使用率: {cpu_usage_percent}%\n已使用进程数: {pids}\n\n")
