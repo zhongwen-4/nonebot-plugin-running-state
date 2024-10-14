@@ -15,6 +15,9 @@ _✨ 一个获取服务器状态的插件 ✨_
 ![GitHub last commit](https://img.shields.io/github/last-commit/zhongwen-4/nonebot-plugin-running-state)
 ![PyPI - Version](https://img.shields.io/pypi/v/nonebot-plugin-running-state?logo=python)
 ![Static Badge](https://img.shields.io/badge/python-3.10%2B-brightgreen?logo=python)
+<a href= https://onebot/>
+  <img alt="Static Badge" src="https://img.shields.io/badge/onebot-v11-black">
+</a>
 
 </div>
 
