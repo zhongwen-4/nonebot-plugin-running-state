@@ -9,6 +9,7 @@
 # nonebot-plugin-running-state
 
 _✨ 一个获取服务器状态的插件 ✨_
+![GitHub Tag](https://img.shields.io/github/v/tag/zhongwen-4/nonebot-plugin-running-state)
 
 </div>
 
