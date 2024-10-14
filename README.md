@@ -7,9 +7,10 @@
 <div align="center">
 ## 📖 介绍
 
-状态插件，用于获取机器人和服务器的当前状态。
 > [!WARNING]
 > 这个插件只在Lagrange协议端上测试过，其他协议端可能会出现KeyError错误？
+
+状态插件，用于获取机器人和服务器的当前状态。
 
 ## 💿 安装
 
@@ -17,7 +18,7 @@
 <summary>使用 nb-cli 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-running_state
+    nb plugin install nonebot-plugin-running-state
 
 </details>
 
@@ -28,22 +29,22 @@
 <details>
 <summary>pip</summary>
 
-    pip install nonebot-plugin-running_state
+    pip install nonebot-plugin-running-state
 </details>
 <details>
 <summary>pdm</summary>
 
-    pdm add nonebot-plugin-running_state
+    pdm add nonebot-plugin-running-state
 </details>
 <details>
 <summary>poetry</summary>
 
-    poetry add nonebot-plugin-running_state
+    poetry add nonebot-plugin-running-state
 </details>
 <details>
 <summary>conda</summary>
 
-    conda install nonebot-plugin-running_state
+    conda install nonebot-plugin-running-state
 </details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
